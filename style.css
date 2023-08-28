@@ -196,3 +196,37 @@ h2 {
     border-radius: 8px;
     padding: 22px;
 }
+
+
+/* footer styles */
+footer {
+    background-color: #111010;
+    min-height: 449px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container h3 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-container p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+}
+
+.footer-container small {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+}

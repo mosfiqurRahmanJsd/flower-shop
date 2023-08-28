@@ -230,3 +230,45 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     font-weight: 400;
 }
+
+
+/* extra section  */
+.extra-section {
+    margin-bottom: 150px;
+}
+
+.extra-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.flower-box {
+    display: flex;
+    text-align: justify;
+    gap: 26px;
+}
+
+.flower-box h5 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #E55473;
+}
+
+.flower-box .box {
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.flower-box .box:hover {
+    background-color: #272727;
+}
+
+.flower-box .box:hover p {
+    color: white;
+    transition: all 2s ease;
+}

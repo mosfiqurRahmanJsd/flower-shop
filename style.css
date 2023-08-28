@@ -1,9 +1,11 @@
+/* custom style */
 * {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
 
+/* header styles */
 header {
     background-color: #FCEEF1;
 }

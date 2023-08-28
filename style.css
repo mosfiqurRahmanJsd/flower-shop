@@ -1,32 +1,7 @@
-/* custom style */
+/* common style */
 * {
     font-family: 'Lato', sans-serif;
     margin: 0;
-}
-
-
-/* header styles */
-header {
-    background-color: #FCEEF1;
-}
-
-header h1 {
-    font-size: 80px;
-    color: 272727;
-    margin-bottom: 32px;
-}
-
-header p {
-    font-size: 18px;
-    color: rgba(39, 39, 39, 0.60);
-    margin-bottom: 32px;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
 }
 
 .primary-btn {
@@ -37,4 +12,89 @@ header p {
     border: 0;
     border-radius: 8px;
     cursor: pointer;
+}
+
+
+/* header styles */
+header {
+    background-color: #FCEEF1;
+    margin-bottom: 150px;
+}
+
+header h1 {
+    font-size: 80px;
+    color: 272727;
+    margin-bottom: 32px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.beautiful-flower {
+    display: flex;
+    align-items: center;
+}
+
+
+/* featured flower style */
+.featured-flowers {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-flowers h2 {
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+.featured-flowes-boxes {
+    display: flex;
+    gap: 25px;
+}
+
+.featured-flowes-boxes .box {
+    height: 538px;
+    width: 400px;
+    border-radius: 50% 50% 0 0;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom center;
+}
+
+.featured-flowes-boxes .box p {
+    text-align: center;
+    color: #272727;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 570px;
+}
+
+.featured-flowes-boxes .box1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url('./images/pngwing\ 6.png');
+
+}
+
+.featured-flowes-boxes .box2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    background-image: url('./images/pngwing\ 5.png');
+
+}
+
+
+.featured-flowes-boxes .box3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    background-image: url('./images/pngwing\ 7.png');
 }

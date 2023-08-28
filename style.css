@@ -45,7 +45,12 @@ p {
 }
 
 
+
 /* featured flower style */
+.featured-section {
+    margin-bottom: 150px;
+}
+
 .featured-flowers {
     width: 40%;
     margin: 0 auto;
@@ -61,7 +66,7 @@ p {
 
 .featured-flowes-boxes {
     display: flex;
-    gap: 25px;
+    gap: 24px;
 }
 
 .featured-flowes-boxes .box {
@@ -93,8 +98,35 @@ p {
 
 }
 
-
 .featured-flowes-boxes .box3 {
     background-color: rgba(71, 125, 17, 0.15);
     background-image: url('./images/pngwing\ 7.png');
+}
+
+
+/* hot deal section */
+#hot-deal {
+    background-color: #FEF6F8;
+}
+
+.deal {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.deal-box {
+    padding-right: 200px;
+}
+
+.deal-box h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.highlight-text {
+    color: #E55473;
 }
